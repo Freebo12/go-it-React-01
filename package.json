@@ -1,7 +1,7 @@
 {
   "name": "react-homework-template",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://Freebo12.github.io/go-it-React-01/",
   "dependencies": {
     "@emotion/css": "^11.10.6",
