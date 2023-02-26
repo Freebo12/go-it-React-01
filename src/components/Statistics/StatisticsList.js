@@ -11,7 +11,7 @@ import {
 export const StatisticsList = ({ title, items }) => {
   return (
     <SectionStatistics>
-      {title !== '' ? <Title>{title}</Title> : <Title>Upload More</Title>}
+      {title !== '' ? <Title>{title}</Title> : <></>}
 
       <ListStats>
         {items.map(item => (
