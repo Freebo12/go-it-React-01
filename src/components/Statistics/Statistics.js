@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Box } from './Statistics.styled';
 
-export const Statistics = ({ tittle, item: { label, percentage } }) => {
+export const Statistics = ({ title, item: { label, percentage } }) => {
   return (
     <Box style={{ backgroundColor: getRandomColor() }}>
       <span>{label}</span>

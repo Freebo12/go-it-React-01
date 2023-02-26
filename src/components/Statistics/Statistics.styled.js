@@ -7,7 +7,7 @@ export const SectionStatistics = styled.section`
   margin-bottom: 20px;
 `;
 
-export const Tittle = styled.h2`
+export const Title = styled.h2`
   padding-top: 20px;
   font-size: 25px;
   font-weight: 700;
