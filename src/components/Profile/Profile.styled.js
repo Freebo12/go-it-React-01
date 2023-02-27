@@ -4,6 +4,7 @@ export const ProfileBox = styled.div`
   box-shadow: 0 8px 30px rgb(212 20 67 / 10%);
   width: 350px;
   border-radius: 4px;
+  margin-bottom: 20px;
 `;
 
 export const UserInfo = styled.div`
