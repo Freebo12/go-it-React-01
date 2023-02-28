@@ -11,8 +11,7 @@ import {
 export const StatisticsList = ({ title, items }) => {
   return (
     <SectionStatistics>
-      {title !== '' ? <Title>{title}</Title> : <></>}
-
+      {title && <Title>{title}</Title>}
       <ListStats>
         {items.map(item => (
           <ListElem key={item.id}>
